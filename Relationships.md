@@ -83,21 +83,21 @@ JOIN Products p ON li.ProductID = p.ProductID;
 
 The result of this query will include the following columns:
 
-**OrderID**: The ID of the order.
-**Date**: The date of the order.
-**InvoiceNumber**: The invoice number of the order.
-**Salesperson**: The name of the salesperson associated with the order.
-**CustomerID**: The ID of the customer associated with the order.
-**CustomerName**: The name of the customer associated with the order.
-**Address**: The address of the customer.
-**CreditRating**: The credit rating of the customer.
-**LineItemID**: The ID of the line item.
-**Quantity**: The quantity of the product in the line item.
-**ProductID**: The ID of the product associated with the line item.
-**ProductName**: The name of the product associated with the line item.
-**ProductQuantity**: The quantity of the product available.
-**Cost**: The cost of the product.
-**Price**: The selling price of the product.
+- **OrderID**: The ID of the order.
+- **Date**: The date of the order.
+- **InvoiceNumber**: The invoice number of the order.
+- **Salesperson**: The name of the salesperson associated with the order.
+- **CustomerID**: The ID of the customer associated with the order.
+- **CustomerName**: The name of the customer associated with the order.
+- **Address**: The address of the customer.
+- **CreditRating**: The credit rating of the customer.
+- **LineItemID**: The ID of the line item.
+- **Quantity**: The quantity of the product in the line item.
+- **ProductID**: The ID of the product associated with the line item.
+- **ProductName**: The name of the product associated with the line item.
+- **ProductQuantity**: The quantity of the product available.
+- **Cost**: The cost of the product.
+- **Price**: The selling price of the product.
 
 > This query combines the data from multiple tables into a single result set, showcasing the relationships between the tables and providing a comprehensive view of the connected information.
 
